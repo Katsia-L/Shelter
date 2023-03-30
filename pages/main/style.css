@@ -1,0 +1,367 @@
+/*@font-face {
+    font-family: Arial;
+    src: url(../../assets/fonts/arial_bolditalicmt.ttf)
+}*/
+
+.body{
+    margin: 0px auto;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 160%;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 130%;
+
+}
+
+h2{
+    font-size: 44px;
+    color: #ffffff;
+}
+
+h3{
+    font-size: 35px;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+h4{
+    font-size: 20px;
+    margin: 24px auto 30px;
+    letter-spacing: 0.06em;
+}
+
+h5{
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 5px 0;
+}
+
+em{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+    line-height: 110%;
+}
+
+a{
+text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.start-screen{
+    background: url(../../assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+
+.header-content{
+    padding: 60px 0;
+    display: flex;
+    color: #fafafa;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    max-height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-title{
+    color: #F1CDB3;
+    margin: 0px;
+    letter-spacing: 0.06em;
+}
+
+.logo-subtitle{
+    margin: 0;
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+}
+
+.nav-menu {
+    margin-right: -16px;
+    display: flex;
+    color: #fafafa;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+ul{
+    cursor: pointer;
+    padding: 0 17px;
+    color: #CDCDCD;
+}
+
+ul:hover{
+    color: #fafafa;
+}
+
+.nav-marker{
+    color: #fafafa;
+    border-bottom: 3px solid #F1CDB3;
+    padding: 0;
+    margin: 16px 20px;
+}
+
+.start-screen-content{
+    display: flex;
+    justify-content: center;
+}
+
+.not-only{
+    margin: 128px 40px 0 0;
+    justify-content: space-between;
+    align-items: center;
+    color: #fafafa;
+}
+
+.not-only-text{
+    max-width: 460px;
+    margin: 40px 0px;
+    color: #CDCDCD;
+}
+
+.button-primary{
+    border-radius: 100px;
+    background: #F1CDB3;
+    color: #292929;
+    font-family: 'Georgia';
+    padding: 15px 45px;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    border: none;
+    cursor: pointer;
+}
+
+.button-primary:hover{
+    background: #FDDCC4;
+    padding: 15px 45px;
+}
+
+.about{
+    padding: 80px 0 100px;
+}
+
+.start-screen-puppy{
+    margin: auto;
+}
+
+.content-about-the-shelter{
+    max-height: 408px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.about-the-shelter{
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title{
+    margin: 13px 0;
+}
+
+.img-about-pets{
+    margin-left: 0;
+}
+
+.our-pets{
+    padding: 45px 0 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #f6f6f6fa;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    margin: 60px 0;
+}
+
+.slider-card{
+    display: flex;
+    gap: 90px;
+}
+
+.card{
+    width: 270px;
+    height: 435px;
+    text-align: center;
+    background: #fafafa;
+    border-radius: 9px;
+    color: #545454;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 1px 5px 25px #FDDCC4;
+    background: #FFFFFF;
+}
+
+.card:hover .button-secondary {
+    background: #FDDCC4;
+}
+
+.slider-button-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.slider-button-arrow:hover{
+    background: #FDDCC4;
+}
+
+.button-secondary{
+    border-radius: 100px;
+    width: 187px;
+    height: 52px;
+    background: transparent;
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.button-secondary:hover{
+    background: #FDDCC4;
+    box-shadow: 1px 5px 25px #F1CDB3;
+}
+
+.help-the-shelter{
+    padding: 45px 0 65px;
+    text-align: center;
+}
+
+.help-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 120px;
+    row-gap: 25px;
+    margin-top: 60px;
+}
+
+.donation {
+    padding: 80px 183px 100px;
+    margin: auto;
+    background: #F6F6F6;
+}
+
+.donation-content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.donation-title{
+    margin: 2px 0 20px ;
+}
+
+.donation-content-text{
+    max-width: 380px;
+}
+
+.button-credit-card{
+    padding: 10px 15px;
+    margin: 18px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    border: none;
+}
+
+.button-credit-card:hover {
+    cursor: pointer;
+    background: #FDDCC4;
+}
+
+.credit-card-number{
+    margin: 0;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background: url(../../assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+
+.contacts-content{
+    display: flex;
+    gap: 160px;
+}
+
+.contacts-title{
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-height: 278px;
+    margin: 16px 0px;
+}
+
+.footer-contacts-locations-block{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #F1CDB3;
+}
+
+.footer-contacts-text{
+    margin: 0;
+}
+
+.footer-locations{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-height: 278px;
+    margin: 16px 0px;
+}
+.color-links{
+    color: #F1CDB3;
+}
