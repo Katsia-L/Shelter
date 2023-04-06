@@ -226,6 +226,7 @@ ul:hover{
 
 .card:hover .button-secondary {
     background: #FDDCC4;
+    border: none;
 }
 
 .slider-button-arrow{
@@ -242,6 +243,7 @@ ul:hover{
 
 .slider-button-arrow:hover{
     background: #FDDCC4;
+    border: none;
 }
 
 .button-secondary{
@@ -279,7 +281,7 @@ ul:hover{
 }
 
 .donation {
-    padding: 80px 183px 100px;
+    padding: 80px 100px 100px;
     margin: auto;
     background: #F6F6F6;
 }
