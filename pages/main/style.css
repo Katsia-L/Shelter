@@ -57,7 +57,7 @@ em{
 }
 
 a{
-text-decoration: none;
+    text-decoration: none;
 }
 
 .wrapper{
@@ -369,4 +369,108 @@ ul:hover{
 }
 .color-links{
     color: #F1CDB3;
+}
+
+@media screen and (max-width: 1279px){
+
+    .wrapper{
+        max-width: 708px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .header-content{
+        padding: 27px 0;
+    }
+
+    .start-screen-content{
+        flex-direction: column;
+    }
+
+    .not-only{
+        width: 460px;
+        margin: 0 124px;
+    }
+
+    .button-primary{
+        display: flex;
+        margin: 2px auto 100px;
+    }
+
+    .start-screen-puppy{
+        width: 569px;
+        align-self: flex-end;
+        margin: 0;
+    }
+
+    .about{
+        padding-top: 70px;
+    }
+
+    .content-about-the-shelter{
+        flex-direction: column-reverse;
+        max-height: none;
+        align-items: center;
+    }
+
+    .img-about-pets{
+        margin-top: 65px;
+        width: 300px;
+    }
+
+    .our-pets{
+        padding-bottom: 0;
+    }
+
+    .card:nth-child(n + 3) {
+        display: none;
+    }
+
+    .slider{
+        gap: 12px;
+    }
+
+    .slider-card {
+        gap: 40px;
+    }
+
+    .help-the-shelter{
+        padding: 45px 0 65px;
+        align-items: center;
+    }
+
+    .help-content{
+        column-gap: 60px;
+        max-width: 630px;
+        margin: 60px auto 0;
+    }
+
+    .help-item {
+        width: 170px;
+    }
+
+    .donation-content{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .contacts{
+        padding-top: 10px;
+    }
+
+    .contacts-content{
+        gap: 60px;
+        row-gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-contacts{
+        max-height: none;
+    }
+
+    .footer-locations{
+        max-height: none;
+    }
 }
