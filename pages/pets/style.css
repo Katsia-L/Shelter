@@ -90,6 +90,7 @@ text-decoration: none;
 ul{
     cursor: pointer;
     padding: 0 17px;
+    color: #545454;
 }
 
 ul:hover{
