@@ -1,8 +1,3 @@
-/*@font-face {
-    font-family: Arial;
-    src: url(../../assets/fonts/arial_bolditalicmt.ttf)
-}*/
-
 .body{
     margin: 0px auto;
 }
@@ -57,13 +52,17 @@ em{
 }
 
 a{
-    text-decoration: none;
+text-decoration: none;
 }
 
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
+}
+
+.mobile-menu{
+    display: none;
 }
 
 .start-screen{
@@ -97,6 +96,7 @@ a{
     font-size: 13px;
     color: #ffffff;
     letter-spacing: 0.1em;
+    line-height: 200%
 }
 
 .nav-menu {
@@ -281,7 +281,7 @@ ul:hover{
 }
 
 .donation {
-    padding: 80px 100px 100px;
+    padding: 80px 100px 90px;
     margin: auto;
     background: #F6F6F6;
 }
@@ -300,6 +300,11 @@ ul:hover{
 
 .donation-content-text{
     max-width: 380px;
+}
+
+.donation-text{
+    
+    line-height: 120%;
 }
 
 .button-credit-card{
@@ -325,8 +330,6 @@ ul:hover{
 }
 
 .contacts {
-    display: flex;
-    justify-content: center;
     padding-top: 40px;
     background: url(../../assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
@@ -344,8 +347,8 @@ ul:hover{
 .footer-contacts{
     display: flex;
     flex-direction: column;
+    width: 280px;
     gap: 40px;
-    max-height: 278px;
     margin: 16px 0px;
 }
 
@@ -363,8 +366,8 @@ ul:hover{
 .footer-locations{
     display: flex;
     flex-direction: column;
+    width: 302px;
     gap: 30px;
-    max-height: 278px;
     margin: 16px 0px;
 }
 .color-links{
@@ -374,13 +377,14 @@ ul:hover{
 @media screen and (max-width: 1279px){
 
     .wrapper{
+
         max-width: 708px;
         margin: 0 auto;
         padding: 0 30px;
     }
 
     .header-content{
-        padding: 27px 0;
+        padding: 27px 0 ;
     }
 
     .start-screen-content{
@@ -445,14 +449,18 @@ ul:hover{
         margin: 60px auto 0;
     }
 
-    .help-item {
+    .help-item{
         width: 170px;
+    }
+
+    .donation{
+        padding: 80px 100px 100px;
     }
 
     .donation-content{
         flex-direction: column-reverse;
         align-items: center;
-        gap: 60px;
+        gap: 50px;
     }
 
     .contacts{
@@ -472,5 +480,220 @@ ul:hover{
 
     .footer-locations{
         max-height: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    body{
+        min-width: 320px;
+    }
+
+    h2, h3{
+        font-size: 25px;
+    }
+
+    h5{
+       letter-spacing: normal;
+    }
+
+    .wrapper{
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .header-content{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+        position: relative;
+        padding: 27px 0;
+    }
+
+    .mobile-menu-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .burger{
+        text-align: right;
+        margin-right: 43px;
+        cursor: pointer;
+    }
+
+    .line{
+        width: 30px;
+        height: 7px;
+        left: 227px;
+        border-bottom: 3px solid #F1CDB3;
+    }
+    .start-screen-content{
+        align-items: center;
+        text-align: center;
+    }
+
+    .not-only{
+        margin: 15px 0 0;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.06em;
+    }
+
+    .not-only-text{
+        margin: 20px 0px 40px;
+        text-align: center;
+        letter-spacing: 0.0em;
+    }
+
+    .start-screen-puppy{
+        margin-top: 65px;
+        text-align: right;
+        width: 260px;
+    }
+
+    .about{
+        padding: 28px 0 40px;
+        margin: 0 15px;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .about-title{
+        text-align: center;
+    }
+
+    .img-about-pets{
+        margin-top: 25px;
+        width: 260px;
+    }
+
+    .our-pets{
+        padding-top: 20px;
+    }
+
+    .card:nth-child(n + 2) {
+        display: none;
+    }
+
+    .slider{
+        margin: 40px 15px 45px;
+        width: 270px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 80px;
+    }
+
+    .slider-card{
+        order: 1;
+    }
+
+    .slider-button-arrow{
+        order: 2;
+    }
+
+    .button-primary{
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .help-the-shelter{
+        padding: 15px 0 45px;
+    }
+
+    .help-content{
+        margin: 40px auto 0;
+        width: 290px;
+        display: grid;
+        grid-template-columns: 130px 130px;
+        gap: 0;
+        gap: 30px;
+    }
+
+    .help-item {
+        width: 130px;
+        height: 87px;
+    }
+
+    .help-icon{
+        width: 50px;
+    }
+
+    .help-icon-name{
+        font-size: 15px;
+        margin: 18px auto 30px;
+    }
+
+    .donation{
+        padding: 40px 0;
+    }
+
+    .donation-content{
+        gap: 30px;
+    }
+
+    .donation-content-text{
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .button-credit-card{
+        margin: 25px auto;
+    }
+
+    .donation-img{
+        width: 260px;
+        height: 135.2px;
+
+    }
+
+    .button-credit-card {
+        padding: 10px 14px;
+        margin-bottom: 20px;
+    }
+
+    .credit-card-number{
+        font-size: 15px;
+    }
+
+    .donation-text{
+        text-align: justify;
+        line-height: 120%;
+        margin: 15px 0;
+    }
+
+    .contacts-content{
+        row-gap: 0;
+    }
+
+    .footer-contacts-locations-block{
+        justify-content: center;
+    }
+
+    .footer-contacts{
+        margin: 22px 0px;
+        text-align: center;
+        width: 270px;
+    }
+
+    .contacts-title{
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .footer-locations {
+        gap: 35px;
+        align-items: flex-start;
+    }
+
+    .footer-puppy{
+        margin-top: 25px;
+        width: 260px;
+        height: 269px;
     }
 }
