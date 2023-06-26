@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shelter</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="assets">
+    <link rel="stylesheet" href="../main/style.css">
+    <link rel="stylesheet" href="../main/popup.css">
+    <link rel="stylesheet" href="../main/burger.css">
     <link rel="stylesheet" href="../normalize.css">
 </head>
 <body class="body">
@@ -17,6 +18,12 @@
                 <h1 class="logo-title">Cozy House</h1>
                 <p class="logo-subtitle">Shelter for pets in Boston</p>
                 </a>
+                <div class="start-burger"></div>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
                 <nav class="nav-menu">
                     <ul class="nav-marker">About the shelter</ul>
                     <a href="../pets/index.html">
@@ -29,19 +36,6 @@
                         <ul>Contacts</ul>
                     </a>
                 </nav>
-            </div>
-            <div class="mobile-menu">
-                <div class="mobile-menu-content">
-                    <a class="header-logo" href="#">
-                    <h1 class="logo-title">Cozy House</h1>
-                    <p class="logo-subtitle">Shelter for pets in Boston</p>
-                    </a>
-                    <div class="burger">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div>
-                </div>
             </div>
         </header>
         <div class="start-screen-content wrapper ">
@@ -74,19 +68,19 @@
                     <img src="../../assets/icons/arrow-left.svg" alt="arrow previous">
                 </button>
                 <div class="slider-card">
-                    <div class="card">
-                        <img src="../../assets/images/pets/pets-katrine.png" height="270" width="270" alt="Katrine">
-                        <h4>Katrine</h4>
+                    <div class="card open-popup">
+                        <img class="card-img" src="../../assets/images/pets/pets-katrine.png" height="270" width="270" alt="Katrine">
+                        <h4 class="card-name">Katrine</h4>
                         <button class="button-secondary">Learn more</button>
                     </div>
-                    <div class="card">
-                        <img src="../../assets/images/pets/pets-jennifer.png" height="270" width="270" alt="Jennifer">
-                        <h4>Jennifer</h4>
+                    <div class="card open-popup">
+                        <img class="card-img" src="../../assets/images/pets/pets-jennifer.png" height="270" width="270" alt="Jennifer">
+                        <h4 class="card-name">Jennifer</h4>
                         <button class="button-secondary">Learn more</button>
                     </div>
-                    <div class="card">
-                        <img src="../../assets/images/pets/pets-woody.png" height="270" width="270" alt="Woody">
-                        <h4>Woody</h4>
+                    <div class="card open-popup">
+                        <img class="card-img" src="../../assets/images/pets/pets-woody.png" height="270" width="270" alt="Woody">
+                        <h4 class="card-name">Woody</h4>
                         <button class="button-secondary">Learn more</button>
                     </div>
                 </div>
@@ -170,7 +164,7 @@
                     </div>
                     <div class="footer-contacts-locations-block">
                         <img src="../../assets/icons/icon-phone.svg" alt="phone">
-                        <a href="tel:+136745677554" class="color-links"><h4 class="footer-contacts-text">+13 674 567 75 54</h4></a>
+                        <a href="tel:+136745677554" class="color-links "><h4 class="footer-contacts-text">+13 674 567 75 54</h4></a>
                     </div>
                 </div>
                 <div class="footer-locations">
@@ -192,5 +186,32 @@
             </div>
         </div>
     </footer>
+    <div class = "popup-body">
+        <div class="popup">
+            <div class="popup-btn"><button class="close-popup close-popup-btn "><img class = "close-img" src="../../Assets/icons/close.svg" alt="Vector"></div>
+            <div class = "popup-content">
+                <div class="popup-img">
+                    <img class="popup-content-img" src="../../assets/images/pets/pets-jennifer.png" alt="Jennifer">
+                </div>
+                <div class="popup-text">
+                    <h3 class="popup-content-text popup-content-name">Jennifer</h3>
+                    <h4 class="popup-content-text popup-content-breed">Dog - Labrador</h4>
+                    <h5 class="popup-content-text popup-content-description">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</h5>
+                    <ul class="popup-content-text">
+                        <li class="popup-content-text popup-content-age"><strong>Age: </strong>2 months</li>
+                        <li class="popup-content-text popup-content-inoculations"><strong>Inoculations: </strong>none</li>
+                        <li class="popup-content-text popup-content-diseases"><strong>Diseases: </strong>none</li>
+                        <li class="popup-content-text popup-content-parasites"><strong>Parasites: </strong>none</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../pages/pets.js"></script>
+    <script src="../../pages/main/popup.js"></script>
+    <script src="../../pages/main/slider.js"></script>
+    <script src="../../pages/burger.js"></script>
+
 </body>
 </html>
