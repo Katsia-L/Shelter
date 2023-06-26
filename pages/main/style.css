@@ -1,8 +1,8 @@
-.body{
+.body {
     margin: 0px auto;
 }
 
-p{
+p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 160%;
     font-size: 15px;
@@ -10,7 +10,7 @@ p{
     color: #4C4C4C;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
     font-family: 'Georgia';
     font-weight: 400;
     font-style: normal;
@@ -18,24 +18,24 @@ h1, h2, h3, h4, h5{
 
 }
 
-h2{
+h2 {
     font-size: 44px;
     color: #ffffff;
 }
 
-h3{
+h3 {
     font-size: 35px;
     color: #545454;
     letter-spacing: 0.06em;
 }
 
-h4{
+h4 {
     font-size: 20px;
     margin: 24px auto 30px;
     letter-spacing: 0.06em;
 }
 
-h5{
+h5 {
     font-size: 15px;
     line-height: 110%;
     letter-spacing: 0.06em;
@@ -43,7 +43,7 @@ h5{
     margin: 5px 0;
 }
 
-em{
+em {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 18px;
@@ -51,25 +51,25 @@ em{
     line-height: 110%;
 }
 
-a{
+a {
 text-decoration: none;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
 }
 
-.start-screen{
+.start-screen {
     background: url(../../assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
 
-.header-content{
+.header-content {
     padding: 60px 0;
     display: flex;
     color: #fafafa;
@@ -77,21 +77,20 @@ text-decoration: none;
     align-items: center;
 }
 
-.header-logo{
+.header-logo {
     max-height: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
 }
 
-.logo-title{
+.logo-title {
     color: #F1CDB3;
     margin: 0px;
     letter-spacing: 0.06em;
 }
 
-.logo-subtitle{
+.logo-subtitle {
     margin: 0;
     font-size: 13px;
     color: #ffffff;
@@ -107,42 +106,43 @@ text-decoration: none;
     font-size: 15px;
 }
 
-ul{
+
+ul {
     cursor: pointer;
     padding: 0 17px;
     color: #CDCDCD;
 }
 
-ul:hover{
+ul:hover {
     color: #fafafa;
 }
 
-.nav-marker{
+.nav-marker {
     color: #fafafa;
     border-bottom: 3px solid #F1CDB3;
     padding: 0;
     margin: 16px 20px;
 }
 
-.start-screen-content{
+.start-screen-content {
     display: flex;
     justify-content: center;
 }
 
-.not-only{
+.not-only {
     margin: 128px 40px 0 0;
     justify-content: space-between;
     align-items: center;
     color: #fafafa;
 }
 
-.not-only-text{
+.not-only-text {
     max-width: 460px;
     margin: 40px 0px;
     color: #CDCDCD;
 }
 
-.button-primary{
+.button-primary {
     border-radius: 100px;
     background: #F1CDB3;
     color: #292929;
@@ -155,41 +155,41 @@ ul:hover{
     cursor: pointer;
 }
 
-.button-primary:hover{
+.button-primary:hover {
     background: #FDDCC4;
     padding: 15px 45px;
 }
 
-.about{
+.about {
     padding: 80px 0 100px;
 }
 
-.start-screen-puppy{
+.start-screen-puppy {
     margin: auto;
 }
 
-.content-about-the-shelter{
+.content-about-the-shelter {
     max-height: 408px;
     display: flex;
     justify-content: center;
     gap: 10%;
 }
 
-.about-the-shelter{
+.about-the-shelter {
     max-width: 430px;
     display: flex;
     flex-direction: column;
 }
 
-.about-title{
+.about-title {
     margin: 13px 0;
 }
 
-.img-about-pets{
+.img-about-pets {
     margin-left: 0;
 }
 
-.our-pets{
+.our-pets {
     padding: 45px 0 100px;
     display: flex;
     justify-content: center;
@@ -197,19 +197,21 @@ ul:hover{
     background: #f6f6f6fa;
 }
 
-.slider{
+
+
+.slider {
     display: flex;
     align-items: center;
     gap: 53px;
     margin: 60px 0;
 }
 
-.slider-card{
+.slider-card {
     display: flex;
     gap: 90px;
 }
 
-.card{
+.card {
     width: 270px;
     height: 435px;
     text-align: center;
@@ -219,7 +221,7 @@ ul:hover{
     cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 1px 5px 25px #FDDCC4;
     background: #FFFFFF;
 }
@@ -229,7 +231,7 @@ ul:hover{
     border: none;
 }
 
-.slider-button-arrow{
+.slider-button-arrow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,12 +243,12 @@ ul:hover{
     cursor: pointer;
 }
 
-.slider-button-arrow:hover{
+.slider-button-arrow:hover {
     background: #FDDCC4;
     border: none;
 }
 
-.button-secondary{
+.button-secondary {
     border-radius: 100px;
     width: 187px;
     height: 52px;
@@ -259,17 +261,17 @@ ul:hover{
     cursor: pointer;
 }
 
-.button-secondary:hover{
+.button-secondary:hover {
     background: #FDDCC4;
     box-shadow: 1px 5px 25px #F1CDB3;
 }
 
-.help-the-shelter{
+.help-the-shelter {
     padding: 45px 0 65px;
     text-align: center;
 }
 
-.help-content{
+.help-content {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -286,7 +288,7 @@ ul:hover{
     background: #F6F6F6;
 }
 
-.donation-content{
+.donation-content {
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -294,20 +296,19 @@ ul:hover{
     align-content: center;
 }
 
-.donation-title{
+.donation-title {
     margin: 2px 0 20px ;
 }
 
-.donation-content-text{
+.donation-content-text {
     max-width: 380px;
 }
 
-.donation-text{
-    
+.donation-text {
     line-height: 120%;
 }
 
-.button-credit-card{
+.button-credit-card {
     padding: 10px 15px;
     margin: 18px 0;
     display: flex;
@@ -324,7 +325,7 @@ ul:hover{
     background: #FDDCC4;
 }
 
-.credit-card-number{
+.credit-card-number {
     margin: 0;
     color: #545454;
 }
@@ -334,17 +335,17 @@ ul:hover{
     background: url(../../assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
 
-.contacts-content{
+.contacts-content {
     display: flex;
     gap: 160px;
 }
 
-.contacts-title{
+.contacts-title {
     color: #FFFFFF;
     margin: 0;
 }
 
-.footer-contacts{
+.footer-contacts {
     display: flex;
     flex-direction: column;
     width: 280px;
@@ -352,77 +353,77 @@ ul:hover{
     margin: 16px 0px;
 }
 
-.footer-contacts-locations-block{
+.footer-contacts-locations-block {
     display: flex;
     align-items: center;
     gap: 20px;
     color: #F1CDB3;
 }
 
-.footer-contacts-text{
+.footer-contacts-text {
     margin: 0;
 }
 
-.footer-locations{
+.footer-locations {
     display: flex;
     flex-direction: column;
     width: 302px;
     gap: 30px;
     margin: 16px 0px;
 }
-.color-links{
+
+.color-links {
     color: #F1CDB3;
 }
 
-@media screen and (max-width: 1279px){
+@media screen and (max-width: 1279px) {
 
-    .wrapper{
+    .wrapper {
 
         max-width: 708px;
         margin: 0 auto;
         padding: 0 30px;
     }
 
-    .header-content{
+    .header-content {
         padding: 27px 0 ;
     }
 
-    .start-screen-content{
+    .start-screen-content {
         flex-direction: column;
     }
 
-    .not-only{
+    .not-only {
         width: 460px;
         margin: 0 124px;
     }
 
-    .button-primary{
+    .button-primary {
         display: flex;
         margin: 2px auto 100px;
     }
 
-    .start-screen-puppy{
+    .start-screen-puppy {
         width: 569px;
-        align-self: flex-end;
-        margin: 0;
+        margin: 0 0 0 140px;
     }
 
-    .about{
+    .about {
         padding-top: 70px;
     }
 
-    .content-about-the-shelter{
+    .content-about-the-shelter {
         flex-direction: column-reverse;
         max-height: none;
         align-items: center;
     }
 
-    .img-about-pets{
+    .img-about-pets {
         margin-top: 65px;
         width: 300px;
     }
 
-    .our-pets{
+    .our-pets {
         padding-bottom: 0;
     }
 
@@ -430,7 +431,7 @@ ul:hover{
         display: none;
     }
 
-    .slider{
+    .slider {
         gap: 12px;
     }
 
@@ -438,104 +439,88 @@ ul:hover{
         gap: 40px;
     }
 
-    .help-the-shelter{
+    .help-the-shelter {
         padding: 45px 0 65px;
         align-items: center;
     }
 
-    .help-content{
+    .help-content {
         column-gap: 60px;
         max-width: 630px;
         margin: 60px auto 0;
     }
 
-    .help-item{
+    .help-item {
         width: 170px;
     }
 
-    .donation{
+    .donation {
         padding: 80px 100px 100px;
     }
 
-    .donation-content{
+    .donation-content {
         flex-direction: column-reverse;
         align-items: center;
         gap: 50px;
     }
 
-    .contacts{
+    .contacts {
         padding-top: 10px;
     }
 
-    .contacts-content{
+    .contacts-content {
         gap: 60px;
         row-gap: 50px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .footer-contacts{
+    .footer-contacts {
         max-height: none;
     }
 
-    .footer-locations{
+    .footer-locations {
         max-height: none;
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
 
-    body{
+    body {
         min-width: 320px;
     }
 
-    h2, h3{
+    h2, h3 {
         font-size: 25px;
     }
 
-    h5{
+    h5 {
        letter-spacing: normal;
     }
 
-    .wrapper{
+    .wrapper {
         margin: 0 auto;
         padding: 0 10px;
     }
 
-    .header-content{
-        display: none;
-    }
 
-    .mobile-menu{
-        display: block;
-        position: relative;
-        padding: 27px 0;
-    }
-
-    .mobile-menu-content{
+    /*.nav-menu {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
-    }
+        position: absolute;
+        margin: 168px 0px 248px 0px;
+        gap: 55px;
+    }*/
 
-    .burger{
-        text-align: right;
-        margin-right: 43px;
-        cursor: pointer;
-    }
+    
 
-    .line{
-        width: 30px;
-        height: 7px;
-        left: 227px;
-        border-bottom: 3px solid #F1CDB3;
-    }
-    .start-screen-content{
+    .start-screen-content {
         align-items: center;
         text-align: center;
     }
 
-    .not-only{
+    .not-only {
         margin: 15px 0 0;
         max-width: 300px;
         display: flex;
@@ -543,35 +528,38 @@ ul:hover{
         letter-spacing: 0.06em;
     }
 
-    .not-only-text{
+    .not-only-text {
         margin: 20px 0px 40px;
         text-align: center;
         letter-spacing: 0.0em;
     }
 
-    .start-screen-puppy{
-        margin-top: 65px;
-        text-align: right;
+    .start-screen-puppy {
+        margin: 65px 0 0 35px;
         width: 260px;
     }
 
-    .about{
+    .about {
         padding: 28px 0 40px;
         margin: 0 15px;
         align-items: center;
         text-align: justify;
     }
 
-    .about-title{
+    .about-title {
         text-align: center;
     }
 
-    .img-about-pets{
+    .about-the-shelter {
+        max-width: 270px;
+    }
+
+    .img-about-pets {
         margin-top: 25px;
         width: 260px;
     }
 
-    .our-pets{
+    .our-pets {
         padding-top: 20px;
     }
 
@@ -579,7 +567,7 @@ ul:hover{
         display: none;
     }
 
-    .slider{
+    .slider {
         margin: 40px 15px 45px;
         width: 270px;
         display: flex;
@@ -589,24 +577,24 @@ ul:hover{
         column-gap: 80px;
     }
 
-    .slider-card{
+    .slider-card {
         order: 1;
     }
 
-    .slider-button-arrow{
+    .slider-button-arrow {
         order: 2;
     }
 
-    .button-primary{
+    .button-primary {
         display: flex;
         margin-bottom: 40px;
     }
 
-    .help-the-shelter{
+    .help-the-shelter {
         padding: 15px 0 45px;
     }
 
-    .help-content{
+    .help-content {
         margin: 40px auto 0;
         width: 290px;
         display: grid;
@@ -620,33 +608,33 @@ ul:hover{
         height: 87px;
     }
 
-    .help-icon{
+    .help-icon {
         width: 50px;
     }
 
-    .help-icon-name{
+    .help-icon-name {
         font-size: 15px;
         margin: 18px auto 30px;
     }
 
-    .donation{
+    .donation {
         padding: 40px 0;
     }
 
-    .donation-content{
+    .donation-content {
         gap: 30px;
     }
 
-    .donation-content-text{
+    .donation-content-text {
         text-align: center;
         margin: 0 10px;
     }
 
-    .button-credit-card{
+    .button-credit-card {
         margin: 25px auto;
     }
 
-    .donation-img{
+    .donation-img {
         width: 260px;
         height: 135.2px;
 
@@ -657,31 +645,34 @@ ul:hover{
         margin-bottom: 20px;
     }
 
-    .credit-card-number{
+    .credit-card-number {
         font-size: 15px;
     }
 
-    .donation-text{
+    .donation-text {
         text-align: justify;
-        line-height: 120%;
+        max-width: 280px;
         margin: 15px 0;
     }
 
-    .contacts-content{
+    .contacts-content {
         row-gap: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .footer-contacts-locations-block{
+    .footer-contacts-locations-block {
         justify-content: center;
     }
 
-    .footer-contacts{
+    .footer-contacts {
         margin: 22px 0px;
         text-align: center;
         width: 270px;
     }
 
-    .contacts-title{
+    .contacts-title {
         text-align: center;
         margin: 0 20px;
     }
@@ -691,7 +682,7 @@ ul:hover{
         align-items: flex-start;
     }
 
-    .footer-puppy{
+    .footer-puppy {
         margin-top: 25px;
         width: 260px;
         height: 269px;
